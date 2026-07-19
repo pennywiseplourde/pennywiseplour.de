@@ -6,6 +6,8 @@
     color: black;
     border-radius: 5px;
     font-weight: bold;
+    text-decoration: none;
+    border: 1px solid gray;
 }
 
 .header-button:hover {
@@ -15,7 +17,7 @@
 .title-header {
     font-size: 60px;
     color: antiquewhite;
-    text-shadow: gray;
+    text-shadow: 1px 2px black;
 }
 
 .header {
