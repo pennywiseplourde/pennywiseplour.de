@@ -20,6 +20,10 @@
     text-shadow: 1px 2px black;
 }
 
+.title-header:hover {
+    color: lightyellow;
+}
+
 .header {
     height: 20vh;
     border: 4px solid black;
@@ -42,14 +46,21 @@
     background-color: #d6223d;
     border: 2px solid black;
     margin: 0px;
+    min-width: max-content;
 }
 
 .header-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: teal;
     border-top: 4px solid black;
     border-bottom: 4px solid black;
     height: 20%;
+}
+
+.header-image {
+    width: 80px;
+    padding: 30px;
+    border-radius: 40px;
 }
