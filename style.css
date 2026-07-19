@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: OpenSansLocal;
+    src: url(fonts/OpenSans.ttf) format(ttf);
+    font-weight: 100 900;
+    font-stretch: 75% 125%;
+    font-display: swap;
+}
+
 .header-button {
     display: inline-block;
     padding: 2px 8px;
@@ -44,9 +54,10 @@
 
 .body {
     background-color: #d6223d;
-    border: 2px solid black;
+    
     margin: 0px;
-    min-width: max-content;
+    min-width: min-content;
+    font-family: "OpenSans", sans-serif;
 }
 
 .header-buttons {
@@ -57,10 +68,29 @@
     border-top: 4px solid black;
     border-bottom: 4px solid black;
     height: 20%;
+    
 }
 
 .header-image {
     width: 80px;
     padding: 30px;
     border-radius: 40px;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p {
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+.cover-gif {
+    display: block;
+    border-radius: 15px;
+    border: 2px solid gold;
 }
