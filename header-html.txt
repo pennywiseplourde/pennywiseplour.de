@@ -1,10 +1,10 @@
 <div class="header">
     <div class="titlebar">
-        <img src="images/hibiscus.png" class="header-image">
+        <img src="images/hibiscus.png" class="header-image-hibiscus">
         <img src="images/funnyvalentine1.jpg" class="header-image">
         <h1 class="title-header">pennywiseplour.de</h1>
         <img src="images/funnyvalentine.jpg" class="header-image">
-        <img src="images/hibiscus right.png" class="header-image">
+        <img src="images/hibiscus right.png" class="header-image-hibiscus">
     </div>
     <div class="header-buttons">
         <a href="index.html" class="header-button">home</a>

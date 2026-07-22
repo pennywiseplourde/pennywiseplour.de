@@ -73,7 +73,14 @@
 
 .header-image {
     width: 80px;
-    padding: 30px;
+    margin: 30px;
+    border-radius: 40px;
+    border: 2px solid rosybrown;
+}
+
+.header-image-hibiscus {
+    width: 80px;
+    margin: 30px;
     border-radius: 40px;
 }
 
@@ -98,4 +105,45 @@
     display: block;
     border-radius: 15px;
     border: 2px solid gold;
+}
+
+.name {
+    color: rgb(164, 22, 203);
+    text-shadow: 1px 1px black;
+}
+
+.profile-title {
+    text-align: center;
+    flex-wrap: unset;
+}
+
+.profile-image {
+    width: 200px;
+    border: 2px solid gold;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.profile {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    border: 5px dashed black;
+    padding: 30px;
+    background-color: salmon;
+    color: rgb(3, 43, 39);
+}
+
+.profile-text-stack {
+    desplay: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
 }
