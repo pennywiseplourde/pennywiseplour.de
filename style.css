@@ -89,6 +89,11 @@
     font-size: 25px;
 }
 
+.h1 {
+    color: antiquewhite;
+    font-size: 50px;
+}
+
 .cover-gif {
     display: block;
     border-radius: 15px;
