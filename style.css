@@ -52,6 +52,24 @@
     background-attachment: fixed;
 }
 
+.footer {
+    height: 10vh;
+    border: 2px solid black;
+    margin-bottom: 0;
+}
+
+.endbar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(113, 82, 122);
+    font-size: 5px;
+}
+
 .body {
     background-color: #d6223d;
     
