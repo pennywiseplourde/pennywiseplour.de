@@ -82,6 +82,17 @@
     font-weight: bold;
 }
 
+.footer-link:hover {
+    color: aqua;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: rgb(44, 30, 48);
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .body {
     background-color: #d6223d;
     
